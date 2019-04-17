@@ -9,7 +9,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-47047389-1');
     </script>
 
@@ -111,7 +110,7 @@ echo '</div>';
     <div id="news" class="container">
       <h2>News</h2>
       <ul>
-        <li>We are organizing the <a href="http://www.cs.cmu.edu/~gsigurds/cvpr2019tutorial/">Tutorial on Unifying Human Activity Understanding</a> at CVPR 2019.</li>
+        <li>We are organizing the <a href="http://gsig.github.io/cvpr2019tutorial/">Tutorial on Unifying Human Activity Understanding</a> at CVPR 2019.</li>
         <li>We have released <a href="https://github.com/gsig/PyVideoResearch">PyVideoResearch</a>, a repository of video analysis tools, datasets, and tasks.</li>
         <li>I am interning at <a href="https://deepmind.com/">DeepMind</a> summer 2019.</li>
         <li>Our CVPR'18 spotlight presentation is now available <a href="https://youtu.be/O92bGCTxul8?t=4818">https://youtu.be/O92bGCTxul8?t=4818</a></li>
