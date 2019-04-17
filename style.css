@@ -1,0 +1,86 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.jumbotron {
+  margin-bottom: 0px;
+  background-color: #ddd;
+}
+.navbar-inverse {
+  background-color: #3f5d7d;
+  border-color: #7C7C7C;
+}
+
+.sep {
+  background-color: #7C7C7C;
+  margin-top: 3em;
+}
+.me {
+border-radius: 15px;
+}
+.septext {
+  display: inline-block;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #e7e7e7;
+}
+.navbar-inverse .navbar-nav>.active>a {
+  color: #e7e7e7;
+}
+
+.featurette-divider {
+  margin: 80px 0;
+}
+
+.thinfont {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.lead {
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+footer {
+  height: 300px;
+  margin-top: 200px;
+  background-color: #eee;
+  position: relative;
+}
+
+footer p {
+  color: #9d9d9d;
+  position: absolute;
+  bottom: 0;
+}
+#bio {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top:1em;
+  font-weight:50;
+}
+legend { margin:3px; text-align:center;width:100%}
+.date {   background-color: blue; }
+.rheader {  font-size: large; }
+.bibref {  padding:3px; padding-left:15px;  vertical-align:top;}
+.bibtitle { font-weight:bold; }
+.bibcomment { font-weight:bold; }
+.bibbooktitle { font-style:italic; }
+.bibitem {margin-top:10px;}
+#showmore {
+  color: #9d9d9d;
+  border: 1px solid #CCC;
+  padding: 10px;
+  font-size: 2em;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
