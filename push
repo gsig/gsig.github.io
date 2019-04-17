@@ -4,5 +4,5 @@ msg=${1:-Updating Website}
 ./compile
 git add -A && \
 git diff --cached && \
-git commit -m "$1" && \
+git commit -m "$msg" && \
 git push origin HEAD

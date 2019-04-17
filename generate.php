@@ -2,6 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="google-site-verification" content="fX_IfRLujy4NCu7SqvYfOiw6pw9xx1P3D9ZYvMyCR34" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47047389-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-47047389-1');
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,17 +61,10 @@ foreach ($entries as $bibentry) {
 }
 function dispRef($key) {
 global $db;
-#$query = array('key'=>$key);
 $bibentry = $db->getEntryByKey($key);
-#$dis = new BibEntryDisplay($db->getEntryByKey('Schmietendorf2000'));
-#$dis->display();
-#$entries=$db->multisearch($query);
-#uasort($entries, 'compare_bib_entries'); 
-#foreach ($entries as $bibentry) { 
 echo '<div class="bibitem bibresearch">';
 echo $bibentry->toHTML(); 
 echo '</div>';
-#}
 }
 ?>
   </head> <body onload="loadme()">
@@ -74,8 +78,8 @@ echo '</div>';
 <a href="http://www.linkedin.com/in/gasigurdsson"> <img style="vertical-align: middle;" src="images/Logo-2C-89px-R.png" width="60" height="15" border="0" alt="LinkedIn Profile" title="LinkedIn Profile"/></a> 
 <a href="https://github.com/gsig"> <img style="vertical-align: middle;" src="images/GitHub_Logo.png" width="46" height="20" border="0" alt="GitHub Page" title="GitHub Page"/></a>
 <a href="https://scholar.google.com/citations?user=clTKG0QAAAAJ&hl=en"> <img style="vertical-align: middle;" src="images/googlescholar.png" width="20" height="20" border="0" alt="Google Scholar Profile"/ title="Google Scholar Profile"></a> &nbsp;
-<a href="https://www.semanticscholar.org/author/Gunnar-A-Sigurdsson/3393328"> <img style="vertical-align: middle;" src="images/semanticscholar.png" width="26" height="20" border="0" alt="Semantic Scholar Profile" title="Semantic Scholar Profile"/></a>
-          <p id="bio">My research focuses on understanding time information in computer vision. This includes human activities, events, and causal reasoning, and augmenting models with higher-level probabilistic reasoning.
+<a href="https://www.semanticscholar.org/author/Gunnar-A.-Sigurdsson/34280810"> <img style="vertical-align: middle;" src="images/semanticscholar.png" width="26" height="20" border="0" alt="Semantic Scholar Profile" title="Semantic Scholar Profile"/></a>
+          <p id="bio">My research focuses on understanding time information in computer vision: human activities, events, and causal reasoning.
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block me" src="images/gunnar.jpg" alt="Gunnar Atli">
@@ -266,7 +270,6 @@ dispRef('arnardottir2014snoring');
 
     <div class="container">
 <?php
-#$query = array('year'=>'0');
 $query = array('year'=>'.*');
 $entries=$db->multisearch($query);
 uasort($entries, 'compare_bib_entries'); 
@@ -285,7 +288,7 @@ foreach ($entries as $bibentry) {
     </div>
 
     <footer>
-      <p>&copy; Gunnar Atli Sigurdsson 2015</p>
+      <p>&copy; Gunnar Atli Sigurdsson 2015-</p>
     </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -308,20 +311,6 @@ foreach ($entries as $bibentry) {
       });
     }
     </script>
-
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-	var _gaq = _gaq || [];
-  	_gaq.push(['_setAccount', 'UA-47047389-1']);
-  	_gaq.push(['_trackPageview']);
-  	(function() {
-    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  	})();
-	</script>
-
-
   </body>
 </html>
 
@@ -333,5 +322,4 @@ foreach ($entries as $bibentry) {
   fwrite($outfile, $string);
   fclose($outfile);
   ob_flush();
-  //echo "<script>window.close();</script>";
 ?>
