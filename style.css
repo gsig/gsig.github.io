@@ -2,10 +2,14 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 .jumbotron {
   margin-bottom: 0px;
   background-color: #ddd;
+}
+.nav {
+  font-weight: 500;
 }
 .navbar-inverse {
   background-color: #3f5d7d;
@@ -26,6 +30,7 @@ border-radius: 15px;
   font-size: 18px;
   line-height: 20px;
   color: #e7e7e7;
+  font-weight: 500;
 }
 .navbar-inverse .navbar-nav>.active>a {
   color: #e7e7e7;
@@ -43,6 +48,8 @@ border-radius: 15px;
 .lead {
   font-weight: 300;
   line-height: 1.25;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 footer {
@@ -70,7 +77,10 @@ legend { margin:3px; text-align:center;width:100%}
 .bibtitle { font-weight:bold; }
 .bibcomment { font-weight:bold; }
 .bibbooktitle { font-style:italic; }
-.bibitem {margin-top:10px;}
+.bibitem {
+  margin-top:10px;
+  font-weight: 300;
+}
 #showmore {
   color: #9d9d9d;
   border: 1px solid #CCC;

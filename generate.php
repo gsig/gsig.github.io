@@ -72,7 +72,7 @@ echo '</div>';
       <div class="container theheader">
         <div class="col-md-7">
           <h1 class="thinfont">Gunnar Atli Sigurdsson</h1>
-          <p>5th year PhD Student, advised by Abhinav Gupta <br/>Robotics Institute, School of Computer Science <br/>Carnegie Mellon University</p>
+          <p>PhD Student, advised by Abhinav Gupta <br/>Robotics Institute, School of Computer Science <br/>Carnegie Mellon University</p>
 {myfirstname}@cmu.edu &nbsp;
 <a href="http://www.linkedin.com/in/gasigurdsson"> <img style="vertical-align: middle;" src="images/Logo-2C-89px-R.png" width="60" height="15" border="0" alt="LinkedIn Profile" title="LinkedIn Profile"/></a> 
 <a href="https://github.com/gsig"> <img style="vertical-align: middle;" src="images/GitHub_Logo.png" width="46" height="20" border="0" alt="GitHub Page" title="GitHub Page"/></a>
@@ -110,6 +110,8 @@ echo '</div>';
     <div id="news" class="container">
       <h2>News</h2>
       <ul>
+        <li><i>I am on the market for industry research positions for fall 2020.</i></li>
+        <li><a href="http://arxiv.org/abs/2003.05078">Visual Grounding in Video for Unsupervised Word Translation</a> will be presented at CVPR 2020 in Seattle.</li>
         <li>We are organizing the <a href="http://gsig.github.io/cvpr2019tutorial/">Tutorial on Unifying Human Activity Understanding</a> at CVPR 2019.</li>
         <li>We have released <a href="https://github.com/gsig/PyVideoResearch">PyVideoResearch</a>, a repository of video analysis tools, datasets, and tasks.</li>
         <li>I am interning at <a href="https://deepmind.com/">DeepMind</a> summer 2019.</li>
@@ -133,6 +135,22 @@ echo '</div>';
     <div class="container">
 
       <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Visual Grounding in Web-Scale Video Corpora</h2>
+          <p class="lead">There are thousands of actively spoken languages on Earth, but a single visual world. Grounding in this visual world has the potential to bridge the gap between all these languages. Our goal is to use visual grounding to improve unsupervised word mapping between languages. The key idea is to establish a common visual representation between two languages by learning embeddings from unpaired instructional videos narrated in the native language. Given this shared embedding we demonstrate that (i) we can map words between the languages, particularly the 'visual' words; (ii) that the shared embedding provides a good initialization for existing unsupervised text-based word translation techniques, forming the basis for our proposed hybrid visual-text mapping algorithm, MUVE; and (iii) our approach achieves superior performance by addressing the shortcomings of text-based methods -- it is more robust, handles datasets with less commonality, and is applicable to low-resource languages. We apply these methods to translate words from English to French, Korean, and Japanese -- all without any parallel corpora and simply by watching many videos of people speaking while doing things.</p>
+<?php
+dispRef('sigurdsson2020visual');
+?>
+        </div>
+        <div class="col-md-5">
+          <!-- <img class="featurette-image img-responsive center-block" src="images/visualgrounding_dual_v6.gif" alt="missing" title="Visual Grounding in Video for Unsupervised Word Translation" style="background: url('images/visualgrounding_dual_v6.jpg') 50% 50% no-repeat;"> -->
+          <img class="featurette-image img-responsive center-block" src="images/visualgrounding_dual_v6.gif" alt="missing" title="Visual Grounding in Video for Unsupervised Word Translation">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row featurette">
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="images/webteaser.png" alt="missing" title="A visualization of our work on jointly modelling first and third person.">
         </div>
@@ -140,6 +158,7 @@ echo '</div>';
           <h2 class="featurette-heading">Unifying Third and First Person</h2>
           <p class="lead">Several theories in cognitive neuroscience suggest that when people interact with the world, or simulate interactions, they do so from a first-person egocentric perspective, and seamlessly transfer knowledge between third-person (observer) and first-person (actor). Despite this, learning such models for human action recognition has not been achievable due to the lack of data. This paper takes a step in this direction, with the introduction of Charades-Ego, a large-scale dataset of paired first-person and third-person videos, involving 112 people, with 4000 paired videos. This enables learning the link between the two, actor and observer perspectives. Thereby, we address one of the biggest bottlenecks facing egocentric vision research, providing a link from first-person to the abundant third-person data on the web. We use this data to learn a joint representation of first and third-person videos, with only weak supervision, and show its effectiveness for transferring knowledge from the third-person to the first-person domain. </p>
 <?php
+dispRef('sigurdsson2020beyond');
 dispRef('sigurdsson2018actor');
 dispRef('sigurdsson2018charadesego');
 ?>
