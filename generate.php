@@ -72,8 +72,8 @@ echo '</div>';
       <div class="container theheader">
         <div class="col-md-7">
           <h1 class="thinfont">Gunnar Atli Sigurdsson</h1>
-          <p>PhD Student, advised by Abhinav Gupta <br/>Robotics Institute, School of Computer Science <br/>Carnegie Mellon University</p>
-{myfirstname}@cmu.edu &nbsp;
+          <p>PhD/MSc Robotics (CMU), MSc/BSc EECE (JHU, University of Iceland)</p>
+{firstletterofmyfirstname}@{myfirstname}.xyz &nbsp;
 <a href="http://www.linkedin.com/in/gasigurdsson"> <img style="vertical-align: middle;" src="images/Logo-2C-89px-R.png" width="60" height="15" border="0" alt="LinkedIn Profile" title="LinkedIn Profile"/></a> 
 <a href="https://github.com/gsig"> <img style="vertical-align: middle;" src="images/GitHub_Logo.png" width="46" height="20" border="0" alt="GitHub Page" title="GitHub Page"/></a>
 <a href="https://scholar.google.com/citations?user=clTKG0QAAAAJ&hl=en"> <img style="vertical-align: middle;" src="images/googlescholar.png" width="20" height="20" border="0" alt="Google Scholar Profile"/ title="Google Scholar Profile"></a> &nbsp;
