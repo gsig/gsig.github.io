@@ -72,13 +72,13 @@ echo '</div>';
       <div class="container theheader">
         <div class="col-md-7">
           <h1 class="thinfont">Gunnar Atli Sigurdsson</h1>
-          <p>Researcher at Amazon</p>
-{firstletterofmyfirstname}@{myfirstname}.xyz &nbsp;
-<a href="http://www.linkedin.com/in/gasigurdsson"> <img style="vertical-align: middle;" src="images/Logo-2C-89px-R.png" width="60" height="15" border="0" alt="LinkedIn Profile" title="LinkedIn Profile"/></a> 
-<a href="https://github.com/gsig"> <img style="vertical-align: middle;" src="images/GitHub_Logo.png" width="46" height="20" border="0" alt="GitHub Page" title="GitHub Page"/></a>
-<a href="https://scholar.google.com/citations?user=clTKG0QAAAAJ&hl=en"> <img style="vertical-align: middle;" src="images/googlescholar.png" width="20" height="20" border="0" alt="Google Scholar Profile"/ title="Google Scholar Profile"></a> &nbsp;
-<a href="https://www.semanticscholar.org/author/Gunnar-A.-Sigurdsson/34280810"> <img style="vertical-align: middle;" src="images/semanticscholar.png" width="26" height="20" border="0" alt="Semantic Scholar Profile" title="Semantic Scholar Profile"/></a>
-          <p id="bio">My research focuses on understanding time information in computer vision: human activities, events, and causal reasoning.
+          <p>Applied Scientist at Amazon Alexa</p>
+<p><i>{firstletterofmyfirstname}@{myfirstname}.xyz</i></p>
+<a href="http://www.linkedin.com/in/gasigurdsson"> <img style="vertical-align: middle;" src="images/Logo-2C-89px-R.png" width="60" height="15" border="0" alt="LinkedIn Profile" title="LinkedIn Profile"/></a> &nbsp; 
+<a href="https://github.com/gsig"><img style="vertical-align: middle;" src="images/GitHub_Logo.png" width="46" height="20" border="0" alt="GitHub Page" title="GitHub Page"/></a> &nbsp; 
+<a href="https://scholar.google.com/citations?user=clTKG0QAAAAJ&hl=en"><img style="vertical-align: middle;" src="images/googlescholar.png" width="20" height="20" border="0" alt="Google Scholar Profile"/ title="Google Scholar Profile"> Google Scholar</a> &nbsp; 
+<a href="https://www.semanticscholar.org/author/Gunnar-A.-Sigurdsson/34280810"><img style="vertical-align: middle;" src="images/semanticscholar.png" width="26" height="20" border="0" alt="Semantic Scholar Profile" title="Semantic Scholar Profile"/>Semantic Scholar</a>
+          <p id="bio">My research focuses on multimodal learning across video, text, 3D, audio, and robotics.
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block me" src="images/gunnar.jpg" alt="Gunnar Atli">
@@ -110,10 +110,12 @@ echo '</div>';
     <div id="news" class="container">
       <h2>News</h2>
       <ul>
+        <li><a href="http://arxiv.org/abs/2301.12614">RREx-BoT: Remote Referring Expressions with a Bag of Tricks</a> will be presented at IROS 2023 in Detroit.</li>
+        <li>We launched <a href="https://www.amazon.science/blog/the-science-behind-alexas-new-interactive-story-creation-experience">Create with Alexa</a>, an interactive audio-visual storytelling experience for kids based on generative ML.</li>
         <li><a href="http://arxiv.org/abs/2003.05078">Visual Grounding in Video for Unsupervised Word Translation</a> will be presented at CVPR 2020 in Seattle.</li>
         <li>We are organizing the <a href="http://gsig.github.io/cvpr2019tutorial/">Tutorial on Unifying Human Activity Understanding</a> at CVPR 2019.</li>
         <li>We have released <a href="https://github.com/gsig/PyVideoResearch">PyVideoResearch</a>, a repository of video analysis tools, datasets, and tasks.</li>
-        <li>I am interning at <a href="https://deepmind.com/">DeepMind</a> summer 2019.</li>
+        <li>I am interning at <a href="https://deepmind.com/">Google DeepMind</a> summer 2019.</li>
         <li>Our CVPR'18 spotlight presentation is now available <a href="https://youtu.be/O92bGCTxul8?t=4818">https://youtu.be/O92bGCTxul8?t=4818</a></li>
         <li>Invited Talk at <a href="http://michaelryoo.com/cvpr2018tutorial/">CVPR 2018 Tutorial on Human Activity Recognition</a></li>
         <li><a href="http://allenai.org/plato/charades/">The Charades-Ego Dataset has been released!</a> 8000 paired egocentric and third person videos. </li>
@@ -132,6 +134,24 @@ echo '</div>';
     <nav id="research" class="navbar navbar-inverse sep"> <div class="septext">Research</div> </nav>
 
     <div class="container">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/rrexbot.png" alt="missing" title="">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Multimodal Learning in Video and 3D</h2>
+          <p class="lead">Household robots operate in the same space for years. Such robots incrementally build dynamic maps that can be used for tasks requiring remote object localization. In an observed environment, locating an object requires searching among all objects in the environment and comes with various challenges, including privacy. We apply vision-language models to these large 3d search spaces.</p>
+<?php
+dispRef('sigurdsson2023rrexbot');
+dispRef('trabucco2022simple');
+dispRef('dorbala2022clipnav');
+dispRef('huang2022video');
+?>
+        </div>
+      </div>
+
+      <hr>
 
       <div class="row featurette">
         <div class="col-md-7">
