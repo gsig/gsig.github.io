@@ -109,6 +109,7 @@ echo '</div>';
       <ul>
         <li><a href="http://arxiv.org/abs/2301.12614">RREx-BoT: Remote Referring Expressions with a Bag of Tricks</a> will be presented at IROS 2023 in Detroit.</li>
         <li>We launched <a href="https://www.amazon.science/blog/the-science-behind-alexas-new-interactive-story-creation-experience">Create with Alexa</a>, an interactive audio-visual storytelling experience for kids based on generative ML.</li>
+        <li>Invited Talk at <a href="https://sites.google.com/view/visionseminar">MIT Vision Seminar</a></li>
         <li><a href="http://arxiv.org/abs/2003.05078">Visual Grounding in Video for Unsupervised Word Translation</a> will be presented at CVPR 2020 in Seattle.</li>
         <li>We are organizing the <a href="http://gsig.github.io/cvpr2019tutorial/">Tutorial on Unifying Human Activity Understanding</a> at CVPR 2019.</li>
         <li>We have released <a href="https://github.com/gsig/PyVideoResearch">PyVideoResearch</a>, a repository of video analysis tools, datasets, and tasks.</li>
