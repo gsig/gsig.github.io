@@ -65,8 +65,8 @@ footer p {
   bottom: 0;
 }
 #bio {
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
+  text-justify: auto;
   margin-top:1em;
   font-weight:50;
 }
