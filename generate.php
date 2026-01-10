@@ -72,7 +72,7 @@ echo '</div>';
       <div class="container theheader">
         <div class="col-md-7">
           <h1 class="thinfont">Gunnar Atli Sigurdsson</h1>
-          <p>Senior Applied Scientist at Amazon AGI</p>
+          <p>Research Scientist at Meta</p>
 <p><i>{firstletterofmyfirstname}@{myfirstname}.xyz</i></p>
 <a href="http://www.linkedin.com/in/gasigurdsson"> <img style="vertical-align: middle;" src="images/Logo-2C-89px-R.png" width="60" height="15" border="0" alt="LinkedIn Profile" title="LinkedIn Profile"/></a> &nbsp; 
 <a href="https://github.com/gsig"><img style="vertical-align: middle;" src="images/GitHub_Logo.png" width="46" height="20" border="0" alt="GitHub Page" title="GitHub Page"/></a> &nbsp; 
@@ -326,7 +326,7 @@ foreach ($entries as $bibentry) {
     </div>
 
     <footer>
-      <p>&copy; Gunnar Atli Sigurdsson 2015-</p>
+      <p>&copy; Gunnar Atli Sigurdsson 2015-2024</p>
     </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
